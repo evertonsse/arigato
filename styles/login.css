@@ -1,0 +1,45 @@
+.content {
+    background-color: #00000E;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content section input {
+    width: 400px;
+    margin-top: 25px;
+    font-size: 28PX;
+    font-family: Roboto, sans-serif;
+    color: #6B6560;
+    border-radius: 10px;
+    padding: 12px;
+    font-weight: 300;
+    outline: none;
+}
+
+.content section button {
+    width: 284px;
+    background: #60E29D;
+    font-family: Roboto, sans-serif;
+    border-radius: 10px;
+    margin-top: 50px;
+    font-size: 28px;
+    padding: 10px;
+    cursor: pointer;
+    box-shadow: 5px white;
+    font-weight: 400;
+    outline: none;
+}
+
+.content section button:hover {
+    background: #30e685;
+}
